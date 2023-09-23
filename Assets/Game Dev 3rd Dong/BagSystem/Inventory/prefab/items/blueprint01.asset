@@ -16,4 +16,5 @@ MonoBehaviour:
   itemimage: {fileID: 21300000, guid: 56ad1df52ad4c074bbd10be6fcd4dfe4, type: 3}
   itemamount: 0
   iteminfo: "\u4E00\u90E8\u5206\u8239\u7684\u5EFA\u9020\u56FE\u7EB8\uFF0C\u5E95\u4E0B\u6709\u795E\u79D8\u7B26\u53F7"
-  use: 0
+  use: 1
+  clicktoshow: {fileID: 21300000, guid: 7501802143db0ac45a0eab548347466b, type: 3}

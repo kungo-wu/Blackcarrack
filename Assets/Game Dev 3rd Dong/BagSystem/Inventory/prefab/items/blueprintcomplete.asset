@@ -17,4 +17,4 @@ MonoBehaviour:
   itemamount: 1
   iteminfo: "\u4E00\u526F\u8239\u8231\u56FE\u7EB8\uFF0C\u5E76\u4E14\u5728\u6211\u7684\u623F\u95F4\u7684\u67F1\u5B50\u6709\u4E00\u4E2A\u53C9"
   use: 1
-  clicktoshow: {fileID: 21300000, guid: f1a0a836227e5a741a7f3ba377a2bc5f, type: 3}
+  clicktoshow: {fileID: 21300000, guid: eab59da7366e8e041bdaec66fd1eaf55, type: 3}

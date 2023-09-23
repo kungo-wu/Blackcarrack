@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: blueprint02
   itemimage: {fileID: 21300000, guid: 49e08e0aa56a0694f9bdacfd3404370d, type: 3}
-  itemamount: 0
+  itemamount: 1
   iteminfo: "\u4E00\u90E8\u5206\u8239\u7684\u5EFA\u9020\u56FE\u7EB8\uFF0C\u5E95\u4E0B\u6709\u795E\u79D8\u7B26\u53F7"
-  use: 0
+  use: 1
+  clicktoshow: {fileID: 21300000, guid: a471502ef78610b4e959150ff084af38, type: 3}
