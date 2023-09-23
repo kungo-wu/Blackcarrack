@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: d9fb96b529fcbae49b776374b144e9f0
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 83506fdb9b1ae9c43b7bbf1473cd6909
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 6a25233093f4848408fda1461b3f01b6
+  - enabled: 1
+    path: Assets/Game Dev 3rd Dong/Start.unity
+    guid: 8e13dc59a5854b949b43686ae89f18e9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Deck(Ship).unity
+    guid: 1e361e97fb75e964882f4ba2a0342f56
+  - enabled: 1
+    path: Assets/Scenes/Levels/Deck(First).unity
+    guid: a82febc3c48ac8947b97eafb11e0fae3
+  - enabled: 1
+    path: Assets/Scenes/Levels/CaptainRoom.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Levels/Kitchen.unity
+    guid: 7ffb629a9071b244eb124888d7948e5f
+  - enabled: 1
+    path: Assets/Scenes/Levels/Augur.unity
+    guid: 648ffef8419296443994defefcce479e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Clinic.unity
+    guid: 8c96daab7a5161e498fdc23fc64eba6b
+  - enabled: 1
+    path: Assets/Scenes/Levels/OldSeamanRoom.unity
+    guid: d4838a1adf26c4840861ccd7a9b1fa39
+  - enabled: 1
+    path: Assets/Scenes/Levels/PlayerRoom.unity
+    guid: c32b16a591e6d444f93b47ca6e670d70
+  - enabled: 1
+    path: Assets/Scenes/Levels/SeamanRoom.unity
+    guid: 75c6749548a4e504993261ba83bdd200
+  - enabled: 1
+    path: Assets/Scenes/Levels/SecretRoomWithEye.unity
+    guid: 0d720d873a66bbf43a4479d2c0e7ded6
+  - enabled: 1
+    path: Assets/Scenes/Levels/LowerCorridor.unity
+    guid: 70fa6a5f7db480e4498e4efc87d1cb23
+  - enabled: 1
+    path: Assets/Scenes/Levels/UpperCorridor.unity
+    guid: 8fa13914a5fea9148b2aaea0bb22b2fa
+  - enabled: 1
+    path: Assets/Scenes/Levels/UtilityRoom.unity
+    guid: 7581b8ef2a03fe04da1fcc762c16a0ef
+  - enabled: 1
+    path: Assets/Scenes/Levels/MerchantRoom.unity
+    guid: 9dbbd71a9bce13044b15ff1aa3d2d926
+  - enabled: 1
+    path: Assets/Scenes/Levels/Garden.unity
+    guid: 7c1bea9cbcbff91479a180ee2150fe4b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Basement.unity
+    guid: 0ab5f5f1110c0e7469fc12e88a0200d8
+  - enabled: 1
+    path: Assets/Scenes/Levels/SecretRoomWithoutEye.unity
+    guid: c9fcf694725afb348ab3057b1603e44d
+  - enabled: 1
+    path: Assets/Yao/Scenes/Telescope.unity
+    guid: e8f86b81a6189e045bc360a4f79e4724
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/0608EndingAssets/Ending.unity
+    guid: 8ecf808d00c51374094ba9126572e186
+  - enabled: 1
+    path: Assets/Yao/Scenes/BookOrganize.unity
+    guid: 26f065b7394c62a4eb7a19f9f08c2a44
+  m_configObjects: {}
