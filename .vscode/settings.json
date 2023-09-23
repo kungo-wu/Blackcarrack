@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Game Dev 3rd ver3 0615.sln"
+    "dotnet.defaultSolution": "Blackcarrack.sln"
 }

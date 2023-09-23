@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -25,6 +26,10 @@ public class enermybehaviour : MonoBehaviour
     public GameObject qte2;
     private bool second;
     public bool collision;
+     public GameObject Qteprefeb; // 预制体对象
+     private GameObject instantiatedPrefab;
+   public Vector3 QtespawnOffset = Vector3.zero; // 生成位置的偏移量
+    public Vector3 QtespawnScale = Vector3.one; // 缩放值
     void Initializepatrolroute()
     {
         foreach(Transform child in patrolroute)
@@ -127,6 +132,8 @@ public class enermybehaviour : MonoBehaviour
         dialogue=bbb;
         if(patrolroute!=null)
         Initializepatrolroute();
+        QteSpawn();
+       
 
     
         
@@ -191,6 +198,8 @@ public class enermybehaviour : MonoBehaviour
              }
              
         }
+        
+        FinishQte();
         
     }
     // Update is called once per frame
@@ -262,4 +271,44 @@ public class enermybehaviour : MonoBehaviour
                 }
                 
     }
+    public void QteSpawn()
+    {
+        if (Qteprefeb != null&&instantiatedPrefab==null)
+        {
+            instantiatedPrefab = Instantiate(Qteprefeb, transform);
+
+            // 调整子物体的本地位置以应用偏移量
+            instantiatedPrefab.transform.localPosition = QtespawnOffset;
+
+            // 设置缩放
+            instantiatedPrefab.transform.localScale = QtespawnScale;
+        }
+        else
+        {
+            Debug.LogError("请在Inspector中指定预制体对象！");
+        }
+    }
+    public void FinishQte()
+    {
+        if(instantiatedPrefab==null&&Qteprefeb != null&&agent.enabled==true)
+        {
+           
+            agent.isStopped=true;
+            _playerAnimator.ResetTrigger("chase");
+           StartCoroutine(ExecuteAfterDelay(2f));
+    }
+    
 }
+private IEnumerator ExecuteAfterDelay(float _timer)
+    {
+        yield return new WaitForSeconds(_timer); // 等待2秒
+
+        Debug.Log("2秒已经过去，执行逻辑！");
+        agent.isStopped=false;
+        agent.speed=1f;
+        _playerAnimator.SetTrigger("chase");
+        QteSpawn();
+        MoveToNextPatrolLocation();
+    }
+}
+

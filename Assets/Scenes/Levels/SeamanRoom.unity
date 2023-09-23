@@ -2923,9 +2923,33 @@ PrefabInstance:
     m_TransformParent: {fileID: 944453534}
     m_Modifications:
     - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: Qteprefeb
+      value: 
+      objectReference: {fileID: 5492959283705754884, guid: a08e58052cad83f4cb5119ded1c6efc9, type: 3}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
       propertyPath: patrolroute
       value: 
       objectReference: {fileID: 319338963}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: QtespawnScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: QtespawnScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: QtespawnScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: QtespawnOffset.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 350226855, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: QtespawnOffset.y
+      value: -83
+      objectReference: {fileID: 0}
     - target: {fileID: 722961980, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
       propertyPath: m_Radius
       value: 35.3
