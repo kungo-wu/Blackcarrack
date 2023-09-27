@@ -710,7 +710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701127746246014615, guid: 42c22ad8512b4e2479456341c2991964, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 1.7
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7701127746787728005, guid: 42c22ad8512b4e2479456341c2991964, type: 3}
       propertyPath: m_TrackedObjectOffset.y
@@ -1512,7 +1512,7 @@ Camera:
   far clip plane: 100
   field of view: 38.35
   orthographic: 1
-  orthographic size: 1.7
+  orthographic size: 2.11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
