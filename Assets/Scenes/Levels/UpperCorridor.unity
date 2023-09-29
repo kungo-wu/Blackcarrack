@@ -1720,6 +1720,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3026825901951355037, guid: 6b04f86f9ec5ecb4caac3a33a7ac5443, type: 3}
     - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: Qteprefeb
+      value: 
+      objectReference: {fileID: 5492959283705754884, guid: a08e58052cad83f4cb5119ded1c6efc9, type: 3}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
       propertyPath: needchase
       value: 1
       objectReference: {fileID: 0}
@@ -1727,6 +1731,26 @@ PrefabInstance:
       propertyPath: patrolroute
       value: 
       objectReference: {fileID: 13713544}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: QtespawnScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: QtespawnScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: QtespawnScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: QtespawnOffset.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
+      propertyPath: QtespawnOffset.y
+      value: -83
+      objectReference: {fileID: 0}
     - target: {fileID: 1481451710, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
       propertyPath: temporarycheckname.Array.size
       value: 0
@@ -1741,7 +1765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1116154379850972133, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
       propertyPath: quests.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1116154379850972133, guid: 3d0e5d844bc9d74458209d30b17266be, type: 3}
       propertyPath: quests.Array.data[0].questName

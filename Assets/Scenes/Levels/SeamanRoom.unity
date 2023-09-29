@@ -2963,6 +2963,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1116154380717808380, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
+      propertyPath: quests.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116154380717808380, guid: 2fd74338abe12e144b82f9505c048434, type: 3}
       propertyPath: quests.Array.data[0].questStatus
       value: 3
       objectReference: {fileID: 0}
