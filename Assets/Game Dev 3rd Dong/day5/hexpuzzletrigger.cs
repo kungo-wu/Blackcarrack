@@ -19,6 +19,9 @@ public class hexpuzzletrigger : MonoBehaviour
         temporaryid=gameObject.name;
         GameEventSystem.instance.onItemTrigger+=hexpuzzle;
         GameEventSystem.instance.onItemTrigger+=hexpuzzlecheck;
+        cm1.SetActive(true);
+        cm2.SetActive(false);
+        doorsecret=GameObject.Find("ToSecretWithoutEye").transform.GetChild(0).gameObject;
         //GetComponent<BoxCollider>().enabled=false;
     }
     private void OnDisable() 

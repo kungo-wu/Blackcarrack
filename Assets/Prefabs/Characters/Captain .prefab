@@ -263,7 +263,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9000000, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
     - target: {fileID: 5866666021909216657, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
       propertyPath: m_Controller
       value: 
@@ -298,6 +298,29 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7b6c60408c247d7419db56c0c5064273, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
+--- !u!95 &129483318726871564 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
+  m_PrefabInstance: {fileID: 5811492681151248285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6658563375091436236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e08562dfc006cd04583820f0c64eea25, type: 3}
+  m_PrefabInstance: {fileID: 5811492681151248285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5669112426679098047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658563375091436236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17169222b45183443a2e58d46a112f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaptainAnimator: {fileID: 129483318726871564}
 --- !u!1001 &8098513077889221169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -315,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 9589cbe62eb04b047976560f71e22527, type: 2}
     - target: {fileID: 4848686987580839085, guid: e9351ebefa64dd343875d94997dd5a0a, type: 3}
       propertyPath: m_Name
-      value: 'Captain '
+      value: Captain
       objectReference: {fileID: 0}
     - target: {fileID: 4848686988139334258, guid: e9351ebefa64dd343875d94997dd5a0a, type: 3}
       propertyPath: m_IsActive

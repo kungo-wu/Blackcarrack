@@ -6,7 +6,7 @@ public class PlayerEvent : MonoBehaviour
 {
     public static PlayerEvent instance;
  
-    public static int Day=0;//记得改动
+    public static int Day=4;//记得改动
     public int itemAmount;
     public List<Quest> questList=new List<Quest>();
     public Dictionary<string,Quest> questDict=new Dictionary<string,Quest>();

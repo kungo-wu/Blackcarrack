@@ -29,7 +29,8 @@ public class enermybehaviour : MonoBehaviour
      public GameObject Qteprefeb; // 预制体对象
      private GameObject instantiatedPrefab;
    public Vector3 QtespawnOffset = Vector3.zero; // 生成位置的偏移量
-    public Vector3 QtespawnScale = Vector3.one; // 缩放值
+    public Vector3 QtespawnScale = Vector3.one; // 缩放值\
+    private Vector3 LastPostion;
     void Initializepatrolroute()
     {
         foreach(Transform child in patrolroute)
@@ -294,6 +295,7 @@ public class enermybehaviour : MonoBehaviour
         {
            
             agent.isStopped=true;
+            LastPostion=agent.destination;
             _playerAnimator.ResetTrigger("chase");
            StartCoroutine(ExecuteAfterDelay(2f));
     }
@@ -306,9 +308,10 @@ private IEnumerator ExecuteAfterDelay(float _timer)
         Debug.Log("2秒已经过去，执行逻辑！");
         agent.isStopped=false;
         agent.speed=1f;
+         agent.destination=LastPostion;
         _playerAnimator.SetTrigger("chase");
         QteSpawn();
-        MoveToNextPatrolLocation();
+       
     }
 }
 
